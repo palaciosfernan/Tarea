@@ -36,7 +36,7 @@ class BinaryTree {
           // Se mueve hacia el nodo de la izquierda
           nodoActual = nodoActual.izquierda;
         }
-        // Si es mayor o igual te vas a la derecha
+        // Si es mayor o igual te vas a la derecha de arbol
         else {
           // Si el sub-árbol derecho es nulo, se inserta un nuevo nodo
           if (nodoActual.derecha === null) {
