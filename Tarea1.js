@@ -7,23 +7,23 @@ class Nodo {
   }
 }
 
-// Definimos el árbol
+// Aquí definimos el árbol
 class BinaryTree {
   constructor() {
     this.raiz = null;
   }
 
-  // Función del árbol para agregar un valor
+  // Esta es la Función del árbol para agregar un valor
   insertar(valor) {
     // Crear nodo
     const nodoNuevo = new Nodo(valor);
 
-    // Si el árbol está vacío
+    //Aquí verificamos si  el árbol está vacío
     if (this.raiz === null) {
       this.raiz = nodoNuevo;
       return true;
     } else {
-      // Buscar la posición en el árbol si ya tiene datos
+      // Verificamos si la posición en el árbol si ya tiene datos
       let nodoActual = this.raiz;
       while (true) {
         // Si es menor se va al sub-árbol de la izquierda
