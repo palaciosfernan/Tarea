@@ -81,11 +81,18 @@ class BinaryTree {
 // Ejemplo de uso
 const binaryTree = new BinaryTree();
 binaryTree.insertar(5);
-binaryTree.insertar(2);
+binaryTree.insertar(1);
 binaryTree.insertar(3);
 binaryTree.insertar(7);
-binaryTree.insertar(3);
+binaryTree.insertar(2);
+binaryTree.insertar(4);
+binaryTree.insertar(6);
+binaryTree.insertar(8);
+binaryTree.insertar(9);
 
 // Método buscar y notificar todas las coincidencias
 console.log(binaryTree.buscar(3));
 console.log(binaryTree.buscar(6));
+console.log(binaryTree.buscar(9));
+console.log(binaryTree.buscar(7));
+console.log(binaryTree.buscar(2));
